@@ -17,7 +17,7 @@ const userData = {
       title: "Lighting Design",
       sub: "Self-Run Workshop Supplying Local Shops and Events",
       link: "https://jamesmccdesign.wixsite.com/design/lamps",
-      imgUrl: "/lamp1.jpg",
+      imgUrl: "/lamp.jpg",
     },
   ],
   about: {

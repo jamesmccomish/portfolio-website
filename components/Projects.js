@@ -31,18 +31,20 @@ export default function Projects() {
 
 const ProjectCard = ({ title, link, sub, imgUrl, number }) => {
   return (
-    <a href={link} className="shadow-2xl rounded-xl">
+    <a href={link} className="shadow-2xl dark:bg-gray-700 rounded-xl">
       <div className="h-1/2 flex flex-col">
         <img
           src={imgUrl}
-          alt="portfolio"
-          className="scale-95 hover:scale-105  transition duration-2000 ease-out rounded-xl h"
+          alt="linked image"
+          className="scale-95 hover:scale-100  transition duration-500 ease-out rounded-xl h"
         />
         <div className="flex flex-row items-center">
-          <h1 className="text-gray-50 font-bold text-xl  rounded-md px-2">
+          <h1 className="text-gray-500 dark:text-gray-300 font-bold text-xl  rounded-md px-2">
             {title}
           </h1>
-          <h1 className="text-gray-50 text-sm  rounded-md px-2">{sub}</h1>
+          <h1 className="text-gray-500 dark:text-gray-300 text-sm  rounded-md px-2">
+            {sub}
+          </h1>
         </div>
       </div>
     </a>
