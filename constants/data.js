@@ -8,23 +8,20 @@ const userData = {
   address: "Barcelona",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Roundtable",
+      sub: "Bringing Investment Clubs to the World of DeFi",
+      link: "https://getroundtable.xyz",
+      imgUrl: "/framedLogo.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
-    },
-    {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Lighting Design",
+      sub: "Self-Run Workshop Supplying Local Shops and Events",
+      link: "https://jamesmccdesign.wixsite.com/design/lamps",
+      imgUrl: "/lamp1.jpg",
     },
   ],
   about: {
-    title: "..",
+    title: "",
     description: [
       `I am originally from Ireland but have been living between London and Barcelona since finishing school. First in London where I moved in 2013 to study Electrical and Electronic Engineering at Imperial College. And then, from about 2018, in lovely Barcelona.`,
       `You can find out more about what I've been doing since then in the projects section, and a short timeline below.`,
@@ -52,7 +49,7 @@ const userData = {
       company: "Roboyo",
       year: "2018",
       companyLink: "https://roboyo.global/",
-      desc: "Joined Roboyo shortly after they opened the Barcelona office in 2018. Travelled EU on automation projects before moving into Managed Operations team in 2020",
+      desc: "Joined Roboyo shortly after they opened the Barcelona office in 2018. Travelled EU on automation projects before moving into Managed Operations team in 2020. Worked here until leaving in 2021 to found Roundtable",
     },
     {
       title: "Electrical and Electronic Engineering",
