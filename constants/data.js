@@ -36,20 +36,27 @@ const userData = {
       year: "2022",
       companyLink: "https://getroundtable.xyz",
       desc: "Developing an app to bring the investment club experience to the world of DeFi",
+      points: ["React, Solidity, Figma"],
     },
     {
       title: "Lighting Designer",
       company: "Self Employed",
       year: "2019",
-      companyLink: "https://tailwindmasterkit.com",
+      companyLink: "https://jamesmccdesign.wixsite.com/design/lamps",
       desc: "Designed and built my own range of lamps. Supplied a number of Barcelona stores and provided lighting for events",
+      points: [
+        "Minimal steel and concrete style",
+        "Fusion360 CAD + 3D printing",
+        "Shipped to 5 countries",
+      ],
     },
     {
       title: "Automation Engineer",
       company: "Roboyo",
       year: "2018",
       companyLink: "https://roboyo.global/",
-      desc: "Joined Roboyo shortly after they opened the Barcelona office in 2018. Travelled EU on automation projects before moving into Managed Operations team in 2020. Worked here until leaving in 2021 to found Roundtable",
+      desc: "Travelled EU on automation projects before moving into Managed Operations team in 2020. Worked here until leaving in 2021 to found Roundtable",
+      points: ["8th joiner in BCN office", "Fully certified UiPath trainer"],
     },
     {
       title: "Electrical and Electronic Engineering",
@@ -57,6 +64,17 @@ const userData = {
       year: "2017",
       companyLink: "https://www.imperial.ac.uk/electrical-engineering",
       desc: "Graduated with 2:1 ",
+      points: [
+        "Embedded systems, control, signal processing",
+        "Department Student Activity Award 2017",
+      ],
+    },
+    {
+      title: "Irish National Water Polo Team",
+      company: "Under-19",
+      year: "2014",
+      companyLink: "https://www.imperial.ac.uk/electrical-engineering",
+      desc: "Trained and travelled with the Irish junior water polo team from 2012 to 2014. Played in EU qualifiers and regional tournaments",
     },
   ],
   resumeUrl:

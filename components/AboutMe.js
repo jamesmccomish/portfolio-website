@@ -2,6 +2,8 @@ import React from "react";
 import userData from "@constants/data";
 import ExperienceCard from "./ExperienceCard";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowCircleRight2 } from "iconsax-react";
 
 export default function AboutMe() {
   return (
@@ -51,6 +53,7 @@ export default function AboutMe() {
                       key={idx}
                       title={exp.title}
                       desc={exp.desc}
+                      points={exp.points}
                       year={exp.year}
                       company={exp.company}
                       companyLink={exp.companyLink}
@@ -67,6 +70,15 @@ export default function AboutMe() {
                 ))}
               </div>
             </div>
+            <Link href="/projects">
+              <a className="flex flex-col items-center">
+                <div className="border flex flex-row justify-between px-8 p-2 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4 mt-20 w-1/3 -center">
+                  <h1 className="font-semibold text-xl">Projects</h1>
+                  <ArrowCircleRight2 size="32" color="#FF8A65" />
+                  {/* <h1 className="text-gray-500">{company}</h1> */}
+                </div>
+              </a>
+            </Link>
             {/* <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
